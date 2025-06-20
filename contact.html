@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CONTACT</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/?size=96&id=LoyAjcvVKv1K&format=png">
+</head>
+<body>
+  <h1>CONTACT</h1>
+        <a href="portfolio.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a><br><br>
+    <form>
+    
+    <label for="name">*Name:</label><input type="text" require placeholder="enter your name" id="name" required><br><br>
+    
+    <label for="email">*Email:</label><input type="email" require placeholder="enter email" id="email" required><br><br>
+    
+    <label for="phone number">*Phone No. :</label><input type="tel" pattern="[0-9]{10}" require placeholder="enter phone no." id="phone number" required><br><br>
+    
+    
+     <label for="subject">Subject:</label>
+  <select id="subject" name="subject" required>
+    <option value="">--Please choose an option--</option>
+    <option value="internship">Internship Inquiry</option>
+    <option value="feedback">Feedback</option>
+    <option value="other">Other</option>
+  </select><br><br>
+
+    <label>*Inquiry Type:</label>
+    <input type="radio" name="inquiry" value="general" required> General
+    <input type="radio" name="inquiry" value="business" required> Business
+    <input type="radio" name="inquiry" value="Support" required>Support<br><br>
+
+     <label>Message:</label><br>
+     <textarea rows="5" cols="10"></textarea>
+      <br><br>
+
+    <label>Prefered Contact Method:</label>
+      <input type="checkbox" value="Email"> Email
+      <input type="checkbox" value="Phone">Phone
+      <input type="checkbox" value="Text">Text<br><br>
+
+    <label for="preference">*Prefered Date To Contact:</label><input type="date" require placeholder="enter date" id="preference" required><br><br>
+
+      <label for="urgency">Select Urgency Level (0 = Not Urgent, 10 = Very Urgent):</label>
+<input type="range" id="urgency" name="urgency" min="0" max="10" step="1"><br><br>
+
+   <button type="submit">SUBMIT</button>
+
+   <br><br><a href="portfolio.html">Return To Home Page</a>
+  
+  </form>
+</body>
+</html>
