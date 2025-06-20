@@ -1,104 +1,91 @@
-# summer-school-online-day-1
+ Summer School Day 1 - Portfolio Website
 
-1. What Each HTML Element Does:
+Welcome! This repository contains my HTML-based **Personal Portfolio Website** created as part of the **Web Development Internship** at **IIT Jammu**.
 
-<!DOCTYPE html>
-- Declares that this file is an HTML5 document.
+---
 
-<html> ... </html>
-- Root element that wraps the entire webpage content.
+## 📁 Files Included:
 
-<head> ... </head>
-- Contains meta-information like title, favicon, and character encoding.
+- `portfolio.html` → Main homepage (skills, education, image, table)
+- `about.html` → About me, goals, and external link (LinkedIn)
+- `contact.html` → Contact form with validation and interactive fields
 
-<title>
-- Sets the title of the web page shown in the browser tab.
+---
 
-<link rel="icon">
-- Sets a custom icon (favicon) for the website.
+## 🛠️ Features:
 
-<meta charset="utf-8">
-- Ensures proper text rendering with UTF-8 character encoding.
+✅ Semantic HTML5 structure  
+✅ Internal navigation links  
+✅ Unordered list (skills)  
+✅ Ordered list (education)  
+✅ Responsive image with alt text  
+✅ Table displaying work experience  
+✅ Contact form with:
+- Text, Email, Phone input
+- Dropdown menu
+- Date picker
+- Range slider (urgency)
+- Radio buttons & Checkboxes
+- Required fields & input validation
 
-<body> ... </body>
-- Contains all the visible content of the web page.
+---
 
-<header>, <main>, <section>, <footer>
-- Semantic HTML5 tags that structure the page meaningfully.
-- <header>: Top section (usually for title and nav).
-- <main>: Core content of the page.
-- <section>: Divides main content into logical parts.
-- <footer>: Bottom of the page, usually for copyright/links.
+## 📌 Enhancement Challenge (Completed):
 
-<h1> to <h6>
-- Headings with decreasing importance (h1 = highest).
+- Dropdown select menu
+- Date input field
+- Range slider
+- Proper form validations (`required`, `pattern`)
+- Used semantic elements: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`
 
-<nav>
-- Tag used to wrap navigation menus.
+---
 
-<a href="...">
-- Creates hyperlinks to other pages or websites.
+## 🔗 External Links:
 
-<ul>, <ol>, <li>
-- Lists: unordered (bullets) or ordered (numbered).
+- [LinkedIn Profile](https://www.linkedin.com/in/tania-sharma-652244340)  
+(Shared in About page)
 
-<img src="..." alt="...">
-- Displays images; alt is for accessibility if image doesn't load.
+---
 
-<table>, <thead>, <tbody>, <tr>, <th>, <td>
-- Structure used to display data in tabular form.
+## 🧾 How Navigation Works:
 
-<form> ... </form>
-- Tag used to create an interactive form.
+Each page includes a simple and consistent `<nav>` section with links to:
+- Home (`portfolio.html`)
+- About (`about.html`)
+- Contact (`contact.html`)
 
-<input>
-- Input fields (text, email, tel, etc.)
+Navigation ensures smooth movement across all pages.
 
-<select>, <option>
-- Dropdown menu for selecting one option.
+---
 
-<textarea>
-- Multiline text input field.
+## 📸 Screenshot:
 
-<button>
-- Clickable button, typically used to submit the form.
+![Portfolio Screenshot](relative/path-to-your-screenshot.jpg)
 
-<input type="range">
-- Slider to choose a numeric value.
+> *(Make sure your image is inside the repo folder & update the path above)*
 
-<input type="date">
-- Date picker input field.
+---
 
-<input type="radio"> and <input type="checkbox">
-- Used to select one or multiple options.
+## 🧑‍💻 About Me:
 
-<label>
-- Associates text with an input field for accessibility and clarity.
+I’m Tania Sharma, a 3rd-year Computer Science Engineering student currently exploring web development through hands-on learning. This project helped me understand HTML better, and I’m excited to grow as a full-stack developer.
 
+---
 
-2. Why I Chose Specific Input Types:
+## ✅ Submission Checklist:
 
-- `type="text"` for name to allow any text entry.
-- `type="email"` ensures a valid email format.
-- `type="tel"` for phone numbers, with a 10-digit pattern.
-- `type="date"` for date of birth (easily usable with calendar).
-- `select` dropdown to give clean pre-defined options.
-- `radio` for mutually exclusive inquiry types (user can pick only one).
-- `checkbox` for preferred contact method (can pick multiple).
-- `textarea` for message input since it's usually longer.
-- `range` input to let user specify urgency level in a visual slider format.
-- `required` ensures that important fields must be filled before submitting.
-- `pattern` ensures correct phone number formatting.
+- [x] All HTML5 standards followed  
+- [x] Internal & external links working  
+- [x] Alt text provided for images  
+- [x] Proper form structure with labels  
+- [x] Favicon added  
 
+---
 
-3. How My Navigation Structure Works:
+## 📂 Repository Name:
 
-- Every page (`portfolio.html`, `about.html`, and `contact.html`) contains the same set of navigation links using the `<a>` tag:
-   - Home → portfolio.html
-   - About → about.html
-   - Contact → contact.html
+`summer-school-online-day-1`
 
-- This ensures the user can move between all pages from any page.
-- All links are **relative**, meaning they work as long as files are in the same folder.
-- The nav bar is placed inside a `<nav>` element (and wrapped in `<header>`), which improves both structure and accessibility.
-- External links like LinkedIn open in a new tab using `target="_blank"` for better user experience.
+---
+
+Thank you for visiting! 😊
