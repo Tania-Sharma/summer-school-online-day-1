@@ -64,17 +64,10 @@ These input types improve **form usability**, **data accuracy**, and **user expe
 
 ---
 
-## ✅ Final Note
 
-This project helped me practice:
-- Writing clean, semantic HTML
-- Structuring multi-page websites
-- Creating accessible and valid forms
-- Thinking about real-world user interactions
 
 > Built with ❤️ using only HTML (No CSS or JS yet — styling will come later!)
 
 ---
 
-**Repository Name:** `summer-school-online-day-1`  
-**Internship:** Web Dev @ IIT Jammu  
+
