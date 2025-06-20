@@ -1,91 +1,80 @@
- Summer School Day 1 - Portfolio Website
+# Summer school online day 1
 
-Welcome! This repository contains my HTML-based **Personal Portfolio Website** created as part of the **Web Development Internship** at **IIT Jammu**.
+This repository contains a personal portfolio website built using **pure HTML** as part of my **Web Development Internship** project.
 
----
-
-## 📁 Files Included:
-
-- `portfolio.html` → Main homepage (skills, education, image, table)
-- `about.html` → About me, goals, and external link (LinkedIn)
-- `contact.html` → Contact form with validation and interactive fields
+It includes three main pages:
+- `portfolio.html` – Homepage with skills, education, image, and experience
+- `about.html` – A brief introduction about me with internal and external links
+- `contact.html` – A contact form with multiple input types and validation
 
 ---
 
-## 🛠️ Features:
+## 📌 What Each HTML Element Does
 
-✅ Semantic HTML5 structure  
-✅ Internal navigation links  
-✅ Unordered list (skills)  
-✅ Ordered list (education)  
-✅ Responsive image with alt text  
-✅ Table displaying work experience  
-✅ Contact form with:
-- Text, Email, Phone input
-- Dropdown menu
-- Date picker
-- Range slider (urgency)
-- Radio buttons & Checkboxes
-- Required fields & input validation
-
----
-
-## 📌 Enhancement Challenge (Completed):
-
-- Dropdown select menu
-- Date input field
-- Range slider
-- Proper form validations (`required`, `pattern`)
-- Used semantic elements: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`
+- `<!DOCTYPE html>`: Declares the document as HTML5.
+- `<html>`: Root element of the entire page.
+- `<head>`: Contains meta info like title, character encoding, and favicon.
+- `<title>`: Sets the page name seen on browser tab.
+- `<link rel="icon">`: Adds a custom favicon.
+- `<meta charset="utf-8">`: Supports Unicode characters.
+- `<body>`: Main visible content of the page.
+- `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`: Semantic elements that help in structuring the webpage meaningfully.
+- `<h1>` to `<h6>`: Headings for creating content hierarchy.
+- `<a href="">`: Creates hyperlinks to other pages or external sites.
+- `<ul>`, `<ol>`, `<li>`: Unordered and ordered lists to display skills and education.
+- `<img>`: Displays images with `alt` text for accessibility.
+- `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`: Used to show experience in a tabular format.
+- `<form>`: Wraps all user input elements for contact.
+- `<input>`: Various fields like text, email, tel, date, radio, checkbox, and range.
+- `<label>`: Associates text with input fields, improves accessibility.
+- `<select>`, `<option>`: Dropdown for choosing subject.
+- `<textarea>`: Multiline input box for messages.
+- `<button>`: Submit button for the form.
 
 ---
 
-## 🔗 External Links:
+## 🧾 Why I Chose Specific Input Types
 
-- [LinkedIn Profile](https://www.linkedin.com/in/tania-sharma-652244340)  
-(Shared in About page)
+- `type="text"`: For free-text inputs like Name.
+- `type="email"`: Ensures correct email format.
+- `type="tel"` with `pattern="[0-9]{10}"`: Validates 10-digit phone numbers.
+- `type="date"`: Lets users pick date of birth easily.
+- `select` dropdown: Limits subject input to predefined choices.
+- `radio`: Used for mutually exclusive inquiry types (only one can be selected).
+- `checkbox`: Allows multiple contact methods to be selected.
+- `textarea`: For longer messages or queries.
+- `range`: Added for urgency level – gives interactive experience.
+- `required`: Ensures important fields must be filled before submitting.
+- `pattern`: Used to enforce format in fields like phone number.
 
----
-
-## 🧾 How Navigation Works:
-
-Each page includes a simple and consistent `<nav>` section with links to:
-- Home (`portfolio.html`)
-- About (`about.html`)
-- Contact (`contact.html`)
-
-Navigation ensures smooth movement across all pages.
-
----
-
-## 📸 Screenshot:
-
-![Portfolio Screenshot](relative/path-to-your-screenshot.jpg)
-
-> *(Make sure your image is inside the repo folder & update the path above)*
+These input types improve **form usability**, **data accuracy**, and **user experience**.
 
 ---
 
-## 🧑‍💻 About Me:
+## 🔗 How My Navigation Structure Works
 
-I’m Tania Sharma, a 3rd-year Computer Science Engineering student currently exploring web development through hands-on learning. This project helped me understand HTML better, and I’m excited to grow as a full-stack developer.
-
----
-
-## ✅ Submission Checklist:
-
-- [x] All HTML5 standards followed  
-- [x] Internal & external links working  
-- [x] Alt text provided for images  
-- [x] Proper form structure with labels  
-- [x] Favicon added  
+- I used a `<nav>` element inside `<header>` on each page.
+- It includes three consistent links:
+  - `Home` → portfolio.html  
+  - `About` → about.html  
+  - `Contact` → contact.html  
+- This allows the user to navigate between pages easily.
+- External links (like LinkedIn) are placed in the about page using `<a>` with `target="_blank"` so they open in a new tab without leaving the website.
+- The structure is semantic and easy to maintain or scale in future.
 
 ---
 
-## 📂 Repository Name:
+## ✅ Final Note
 
-`summer-school-online-day-1`
+This project helped me practice:
+- Writing clean, semantic HTML
+- Structuring multi-page websites
+- Creating accessible and valid forms
+- Thinking about real-world user interactions
+
+> Built with ❤️ using only HTML (No CSS or JS yet — styling will come later!)
 
 ---
 
-Thank you for visiting! 😊
+**Repository Name:** `summer-school-online-day-1`  
+**Internship:** Web Dev @ IIT Jammu  
